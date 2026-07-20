@@ -8,10 +8,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
 
     steps:
